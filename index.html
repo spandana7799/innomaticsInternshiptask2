@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morning Bliss Cafe</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <header style="background-image: url('images/background.jpg');"></header>
+    <div class="header-content">
+      <div class="logo">Morning Bliss Cafe</div>
+      <nav>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="hero">
+      <h1>Welcome to Morning Bliss Cafe</h1>
+      <p>Start your day with the perfect cup of coffee.</p>
+      <a href="#menu" class="btn">Explore Our Menu</a>
+    </div>
+  </header>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu-section">
+    <h2>Our Menu</h2>
+    <div class="menu-grid">
+      <!-- Coffee Items -->
+      <div class="menu-item">
+        <img src="images/Espresso.jpg" alt="Espresso">
+        <h3>Espresso</h3>
+        <p>A strong shot of coffee, perfect for a quick pick-me-up.</p>
+        <p class="price">$3.50</p>
+      </div>
+      <div class="menu-item">
+        <img src="images/Latte.jpg" alt="Latte">
+        <h3>Latte</h3>
+        <p>Smooth espresso with steamed milk and a touch of foam.</p>
+        <p class="price">$4.50</p>
+      </div>
+      <div class="menu-item">
+        <img src="images/Cappuccino.jpg" alt="Cappuccino">
+        <h3>Cappuccino</h3>
+        <p>Rich espresso with equal parts steamed milk and foam.</p>
+        <p class="price">$4.00</p>
+      </div>
+      <!-- Breakfast Items -->
+      <div class="menu-item">
+        <img src="images/Breakfast Sandwich.jpg" alt="Breakfast Sandwich">
+        <h3>Breakfast Sandwich</h3>
+        <p>A hearty sandwich with egg, cheese, and your choice of meat.</p>
+        <p class="price">$6.00</p>
+      </div>
+      <div class="menu-item">
+        <img src="images/Pancakes.jpg" alt="Pancakes">
+        <h3>Pancakes</h3>
+        <p>Fluffy pancakes served with syrup and butter.</p>
+        <p class="price">$5.50</p>
+      </div>
+      <div class="menu-item">
+        <img src="images/Avocado Toast.jpg" alt="Avocado Toast">
+        <h3>Avocado Toast</h3>
+        <p>Smashed avocado on toasted artisan bread.</p>
+        <p class="price">$7.00</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about-section">
+    <h2>About Us</h2>
+    <p>Morning Bliss Cafe is a cozy coffee shop dedicated to serving the finest coffee and breakfast items. Our mission is to provide a warm and welcoming environment where you can enjoy high-quality, ethically sourced coffee and delicious food. Established in 2020, we take pride in being a part of your daily routine.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+</body>
+</html>
